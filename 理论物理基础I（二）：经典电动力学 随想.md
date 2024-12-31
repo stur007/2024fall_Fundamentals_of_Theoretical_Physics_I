@@ -5,12 +5,15 @@
 ### 电磁场与麦克斯韦方程组
 
 从三维形式的Maxwell方程组过渡到四维协变形式的方程，引入四维矢势$F_{\mu\nu}=\partial^\mu A^\nu - \partial^\nu A^\mu$，将表达式进行一定的化简。
+
 $$
 \partial_{\mu}F^{\mu\nu}=\mu_0J^\nu
 $$
+
 注意，这一方式等式左边只能含有场量$\overrightarrow E$和$\overrightarrow B$，所以要通过后续的在各种介质中各种线性假设才能得到含有$\overrightarrow D$与$\overrightarrow H$之间的关系。
 
 同时，还有时域-频域傅里叶变换的表达式：
+
 $$
 F(\omega)=\int_{-\infty}^{\infty}f(t)\mathrm{e}^{\mathrm{i}\omega t}\mathrm{d}t
 $$
@@ -26,9 +29,11 @@ $$
 #### 能量与动量守恒
 
 电磁场的能量密度与能流密度：<mark>（前提：线性介质）</mark>
+
 $$
 u=\frac{1}{2}\vec D\cdot \vec E+\frac{1}{2}\vec B \cdot \vec H
 $$
+
 $$
 \vec S = \vec E \times \vec H
 $$
@@ -50,9 +55,11 @@ $$
 个人感觉直接推导还是比较复杂的，但是结论还是比较容易掌握的。
 
 电磁场能动张量$T^{\mu \nu}$:
+
 $$
 T^{00} = u, ~T^{0i}=T^{i0}=\vec S/c = \vec g \cdot c ,~T^{ij}=\overset{\leftrightarrow}{\sigma}^{ij}
 $$
+
 <mark>0分量：守恒荷</mark>
 
 #### 角动量守恒定律
@@ -74,9 +81,11 @@ $$
 #### Lorenz-Lorentz规范
 
 考虑含时的情形，得到
+
 $$
 \partial_\mu A^\mu = \frac{1}{c^2}\partial_t\varphi+\nabla\cdot A= 0
 $$
+
 直接将标势与矢势的方程同时直接化为波动方程。
 
 ## 静电场
@@ -96,6 +105,7 @@ $$
 其实讲义中的推导感觉不是非常适合于直接计算，显然比较麻烦，直接记忆公式由非常困难。直接考虑矩形波导中的电磁波，容易发现只能传递$\mathrm{TE_{mn}}$波与$\mathrm{TM_{mn}}$波，由对称性，可以仅仅研究$\mathrm{TE}$波的情形。
 
 电场只有横向分量+边界条件：
+
 $$
 E_x = E_{x0}\cos\left(\frac{\pi x}{a}\right)\sin\left(\frac{\pi y}{b}\right)
 $$
